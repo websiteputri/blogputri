@@ -404,18 +404,4 @@ ul li {
     width: 64px;
     right: 0;
   }
-
-  body.header-visible #wrapper,
-  body.header-visible #titleBar {
-    -moz-transform: translateX(-23em);
-    -webkit-transform: translateX(-23em);
-    -ms-transform: translateX(-23em);
-    transform: translateX(-23em);
-  }
-  body.header-visible #header {
-    -moz-transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-  }
 }
